@@ -53,3 +53,4 @@ e))))
     (highlight-parentheses-mode t)))                                                                     
 (global-highlight-parentheses-mode t)
 
+(add-hook 'before-save-hook (lambda () (whitespace-cleanup)))
